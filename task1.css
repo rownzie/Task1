@@ -1,101 +1,120 @@
-body {
-	background-color: white;
-	background-image:url('forest.jpg');
-	background-repeat:no-repeat;
-	background-size: 100% 100%;
-	max-width:auto;
-    height:auto;
-}
+			body {
+			background-color: white;
+			background-image:url('forest.jpg');
+			background-repeat:no-repeat;
+			background-size: 100% 100%;
+			max-width:auto;
+			height:auto;
+			}
 
-.bb {
-margin: 5px;
-  float: center;
-  padding: 1px;
-  border-radius: 100px;
-  -moz-border-radius: 60px;
-  -webkit-border-radius: 60px;
-}
+			.bb {
+			margin: 5px;
+			  float: center;
+			  padding: 1px;
+			  border-radius: 100px;
+			  -moz-border-radius: 60px;
+			  -webkit-border-radius: 60px;
+			}
 
-h1{
-	padding: 0;
-	margin: 0;
-	color: white;
-	font-size: 20px;
-	font-weight: bold;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	
-}
-p, span{
-	padding: 0;
-	margin: 0;
-	color: white;
-	font-family: verdana;
-	font-size: 16px;
-	font-weight: bold;
-	text-align: center;
-	letter-spacing: 2px;
-}
-input{
-	padding: 0;
-	margin: 0;
-	color: white;
-	font-size: 10px;
-	text-align: center;
-	letter-spacing: 2px;
-}
+			h1{
+				padding: 0;
+				margin: 0;
+				color: white;
+				font-size: 20px;
+				font-weight: bold;
+				text-align: center;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				
+			}
+			p, span{
+				padding: 0;
+				margin: 0;
+				color: white;
+				font-family: verdana;
+				font-size: 16px;
+				font-weight: bold;
+				text-align: center;
+				letter-spacing: 2px;
+			}
+			input{
+				padding: 0;
+				margin: 0;
+				color: white;
+				font-size: 10px;
+				text-align: center;
+				letter-spacing: 2px;
+			}
 
 
-h4{
-	padding: 0;
-	margin: 0;
-	color: black;
-	font-size: 40px;
-	font-weight: bold;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	text-shadow: 2px 2px #32CD32;
-}
+			h4{
+				padding: 0;
+				margin: 0;
+				color: black;
+				font-size: 40px;
+				font-weight: bold;
+				text-align: center;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				text-shadow: 2px 2px #32CD32;
+			}
 
-input, select, button {
-  font-family: Lato;
-  text-align: center;
-  width: 100px;
-  height: 30px;
-  margin: 0 2px;
-  padding: 0 8px;
-  background-color: #32CD32;
+			input{
+			  font-family: verdana;
+			  text-align: center;
+			  font-size: 16px;
+			  width: 700px;
+			  height: 30px;
+			  margin: 0 2px;
+			  padding: 0 8px;
+			  background-color: #32CD32;
 
-  border-style: solid;
-  border-color: #006400;
-  border-width: 0px;
+			  border-style: solid;
+			  border-color: #006400;
+			  border-width: 0px;
 
-  transition-property: border-width, background-color, padding, border-color;
-  transition-duration: 0.2s;
-  transition-timing-function: linear;
-}
+			  transition-property: border-width, background-color, padding, border-color;
+			  transition-duration: 0.2s;
+			  transition-timing-function: linear;
+			}
+			button{
+			  font-family: Lato;
+			  text-align: center;
+			  font-size: 20px;
+			  width: 100px;
+			  height: 30px;
+			  margin: 0 2px;
+			  padding: 0 8px;
+			  background-color: #32CD32;
 
-input:hover, select:hover, button:hover {
-  padding: 0 8px;
+			  border-style: solid;
+			  border-color: #006400;
+			  border-width: 0px;
 
-  border-style: solid;
-  border-color: #006400;
-  border-width: 2px;
+			  transition-property: border-width, background-color, padding, border-color;
+			  transition-duration: 0.2s;
+			  transition-timing-function: linear;
+			}
 
-  transition-property: border-width, background-color, padding, border-color;
-  transition-duration: 0.2s;
-  transition-timing-function: linear;
-}
+			input:hover, select:hover, button:hover {
+			  padding: 0 8px;
 
-input:disabled, select:disabled, button:disabled {
-  padding: 0 10px;
-  background-color: rgba(0, 0, 0, 0.1);
+			  border-style: solid;
+			  border-color: #006400;
+			  border-width: 2px;
 
-  border-width: 0px;
+			  transition-property: border-width, background-color, padding, border-color;
+			  transition-duration: 0.2s;
+			  transition-timing-function: linear;
+			}
 
-  transition-property: border-width, background-color, padding, border-color;
-  transition-duration: 0.2s;
-  transition-timing-function: linear;
-}
+			input:disabled, select:disabled, button:disabled {
+			  padding: 0 10px;
+			  background-color: rgba(0, 0, 0, 0.1);
+
+			  border-width: 0px;
+
+			  transition-property: border-width, background-color, padding, border-color;
+			  transition-duration: 0.2s;
+			  transition-timing-function: linear;
+			}
