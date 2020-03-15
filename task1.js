@@ -54,29 +54,62 @@ function replace(){
 				document.getElementById("b2").disabled = true;
 			}
 			
-function doMath(){
+function doMath(){//p.s. sir, due to no given sample, i am providing two solutions though.
 				var str = document.getElementById('x').value;
 				str = str.replace(/ /g,'').replace(/\W/g,'');
 				var sum = str.split('').join('');
+				/*
+				//this is the process in getting 1stchar of first string + 3rdchar of second string
 				
 				for(var i=0; i<sum.length; i++){
 					if(sum[i]==sum[0]){
 							var a = sum[i];
 						}
-					}
+				}
 					
 				var str1 = document.getElementById('y').value;	
 				str1 = str1.replace(/ /g,'').replace(/\W/g,'');
 				var sum1 = str1.split('').join('');				
 					
 				for(var j=0; j<sum1.length; j++){
-					if(sum1[j]==sum1[2]){
+					if(sum1[j]==sum1[0]){
 							var b = sum1[j];
-						}
 					}
+				}
+					
 				// Add them together and display
 				var sum2 = a.concat(b);
 				document.getElementById("res").innerHTML=sum2;
+				*/
+				
+				//this is the process in getting 1stchar and 3rdchar of first and second strings
+				for(var i=0; i<sum.length; i++){
+					if(sum[i]==sum[0]){
+							var a = sum[i];
+						}
+					if(sum[i]==sum[2]){
+							var a1 = sum[i];
+						}
+				}
+					
+				var str1 = document.getElementById('y').value;	
+				str1 = str1.replace(/ /g,'').replace(/\W/g,'');
+				var sum1 = str1.split('').join('');				
+					
+				for(var j=0; j<sum1.length; j++){
+					if(sum1[j]==sum1[0]){
+							var b = sum1[j];
+						}
+					if(sum1[j]==sum1[2]){
+						var b1 = sum1[j];
+					}
+				}
+					
+				// Add them together and display
+				var sum2 = a.concat(a1);
+				var sum3 = b.concat(b1);
+				var tot = sum2+sum3;
+				document.getElementById("res").innerHTML=tot;
 				document.getElementById("b3").disabled = true;
 			}
 			
