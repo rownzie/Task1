@@ -1,7 +1,8 @@
 body {
 	background-color: white;
 	background-image:url('forest.jpg');
-	background-position:center;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
 	max-width:auto;
     height:auto;
 }
